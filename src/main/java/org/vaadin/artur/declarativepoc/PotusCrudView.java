@@ -8,6 +8,10 @@ import com.vaadin.data.util.IndexedContainer;
 
 public class PotusCrudView extends DeclaredView<PotusCrud> {
 
+	public PotusCrudView() {
+		getRoot().firstName.setInputPrompt("Enter first name");
+	}
+	
 	@UiDataSource("potuslist")
 	public Container getData() {
 		IndexedContainer ic = new IndexedContainer();
