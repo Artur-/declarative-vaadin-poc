@@ -12,7 +12,7 @@ public class PotusCrudView extends DeclaredView<PotusCrud> {
 		getRoot().firstName.setInputPrompt("Enter first name");
 	}
 	
-	@UiDataSource("potuslist")
+	@UiDataSource(PotusCrud.POTUS_LIST)
 	public Container getData() {
 		IndexedContainer ic = new IndexedContainer();
 		ic.addItem("foo");
