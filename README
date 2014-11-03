@@ -1,0 +1,5 @@
+Poc, depends on
+
+git clone https://github.com/Artur-/Clara
+mvn install -DskipTests
+
